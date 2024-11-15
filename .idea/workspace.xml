@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c3ec2c8a-2a2e-454c-b6a1-319ae467cfe4" name="Changes" comment="New Project Started">
+    <list default="true" id="c3ec2c8a-2a2e-454c-b6a1-319ae467cfe4" name="Changes" comment="Files update &amp; New Tests">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/mobile_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/mobile_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/compare_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/compare_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/test_mobile_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_mobile_page.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -206,11 +206,20 @@
       <option name="project" value="LOCAL" />
       <updated>1731521205248</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Files update &amp; New Tests">
+      <option name="closed" value="true" />
+      <created>1731629729444</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1731629729445</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="New Project Started" />
-    <option name="LAST_COMMIT_MESSAGE" value="New Project Started" />
+    <MESSAGE value="Files update &amp; New Tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Files update &amp; New Tests" />
   </component>
 </project>

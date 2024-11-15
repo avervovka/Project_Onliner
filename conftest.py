@@ -9,5 +9,6 @@ from selenium.webdriver.chrome.options import Options
 def driver():
     driver = webdriver.Chrome()
     driver.fullscreen_window()
+    driver.implicitly_wait(10)
     yield driver
     driver.quit()

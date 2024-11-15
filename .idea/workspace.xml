@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c3ec2c8a-2a2e-454c-b6a1-319ae467cfe4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Project_Onliner.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="c3ec2c8a-2a2e-454c-b6a1-319ae467cfe4" name="Changes" comment="New Project Started">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/mobile_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/mobile_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_mobile_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_mobile_page.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,9 +25,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;avervovka&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/avervovka/Project_Onliner.git&quot;,
+    &quot;accountId&quot;: &quot;df87449f-d0a9-43aa-ab99-9beb8b2355ae&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2onBjs77rhskMdWjJKoeYJCYDKK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -40,7 +50,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Python tests for test_mobile_page.test_click_checkbox_2.executor": "Run",
+    "Python tests.Python tests for test_mobile_page.test_compare_button.executor": "Run",
+    "Python tests.Python tests for test_mobile_page.test_opened.executor": "Run",
     "Python tests.Python tests for test_page_mobile.test_search_for_mobile.executor": "Run",
+    "Python tests.Python tests in test_mobile_page.py.executor": "Run",
     "Python tests.Python tests in test_onliner.py.executor": "Run",
     "Python tests.Python tests in test_page_mobile.py.executor": "Run",
     "Python.mobile_page.executor": "Run",
@@ -49,7 +63,7 @@
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Python tests.Python tests in test_onliner.py">
+  <component name="RunManager" selected="Python tests.Python tests for test_mobile_page.test_click_checkbox_2">
     <configuration name="mobile_page" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Project_Onliner" />
       <option name="ENV_FILES" value="" />
@@ -72,7 +86,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for tests.test_onliner" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_mobile_page.test_click_checkbox_2" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Project_Onliner" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -83,11 +97,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tests.test_onliner&quot;" />
+      <option name="_new_target" value="&quot;test_mobile_page.test_click_checkbox_2&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in test_onliner.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_mobile_page.test_compare_button" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Project_Onliner" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -98,15 +112,73 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_onliner.py&quot;" />
+      <option name="_new_target" value="&quot;test_mobile_page.test_compare_button&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_mobile_page.test_opened" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Project_Onliner" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_mobile_page.test_opened&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in test_mobile_page.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Project_Onliner" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_mobile_page.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest in tests" type="tests" factoryName="py.test" nameIsGenerated="true">
+      <module name="Project_Onliner" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.12 (Project_Onliner)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.mobile_page" />
+      <item itemvalue="Python tests.pytest in tests" />
+      <item itemvalue="Python tests.Python tests for test_mobile_page.test_click_checkbox_2" />
+      <item itemvalue="Python tests.Python tests for test_mobile_page.test_compare_button" />
+      <item itemvalue="Python tests.Python tests for test_mobile_page.test_opened" />
+      <item itemvalue="Python tests.Python tests in test_mobile_page.py" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests in test_onliner.py" />
+        <item itemvalue="Python tests.Python tests for test_mobile_page.test_click_checkbox_2" />
+        <item itemvalue="Python tests.Python tests in test_mobile_page.py" />
+        <item itemvalue="Python tests.Python tests for test_mobile_page.test_opened" />
+        <item itemvalue="Python tests.Python tests for test_mobile_page.test_compare_button" />
         <item itemvalue="Python.mobile_page" />
-        <item itemvalue="Python tests.Python tests for tests.test_onliner" />
       </list>
     </recent_temporary>
   </component>
@@ -126,6 +198,19 @@
       <option name="presentableId" value="Default" />
       <updated>1731495597323</updated>
     </task>
+    <task id="LOCAL-00001" summary="New Project Started">
+      <option name="closed" value="true" />
+      <created>1731521205248</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1731521205248</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="New Project Started" />
+    <option name="LAST_COMMIT_MESSAGE" value="New Project Started" />
   </component>
 </project>
